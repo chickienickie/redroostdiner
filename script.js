@@ -1,7 +1,3 @@
-function toggleMenu() {
-    document.querySelector('.nav-links').classList.toggle('nav-active');
-}
-
 
 const menuItems = {
     breakfast: [
@@ -26,14 +22,36 @@ const menuItems = {
         { name: "Steak & Eggs w/toast", price: "$14.95" },
         { name: "Belgian Waffle", price: "$5.95" },
         { name: "Pancakes", price: "$4.95" },
-        
-
+        { name: "Toast", price: "$1.99" },
+        { name: "Sausage links", price: "$4.99" },
+        { name: "Bacon (4)", price: "$4.99" },
+        { name: "Ham Slices", price: "$3.99" },
+        { name: "Scrapple (2)", price: "$4.99" },
     ],
-    lunch: [
-        { name: "", price: "" }
+    lunchdinner: [
+        { name: "", price: "" },
     ],
-    dinner: [
-        { name: "", price: "" }
+    desserts: [
+        { name: "6 Layer Italian Cream Cake", price: "$3.99" },
+        { name: "Apple Pie", price: "$1.99" },
+        { name: "Peach Pie", price: "$1.99" },
+        { name: "Bluberry Pie", price: "$1.99" }
+    ],
+   drinks: [
+        { name: "Coffee", price: "$2.25" },
+        { name: "Tea", price: "$1.99" },
+        { name: "Pepsi", price: "$1.25" },
+        { name: "Diet Pepsi", price: "$1.25" },
+        { name: "Mt. Dew", price: "$1.25" },
+        { name: "Bottle Water", price: "$1.50" },
+        { name: "Sm. Gatorade", price: "$1.50" },
+        { name: "Sunny D", price: "$1.25" },
+        { name: "Apple Juice", price: "$1.25" },
+        { name: "Berry Juice", price: "$1.25" },
+        { name: "Propel", price: "$1.50" },
+        { name: "Chocolate Milk", price: "$2.99" },
+        { name: "White Milk", price: "$2.49" },
+        { name: "Orange Juice", price: "$2.99" },
     ],
     about: [
         { name: "", price: "" }
@@ -42,7 +60,7 @@ const menuItems = {
 
 function displayMenu() {
     const menuContainer = document.getElementById("menu");
-    menuContainer.innerHTML = ""; // Clear previous content
+    menuContainer.innerHTML = ""; 
 
     for (const [category, items] of Object.entries(menuItems)) {
         const sectionDiv = document.createElement("div");

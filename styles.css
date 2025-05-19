@@ -1,61 +1,69 @@
-
 body {
     font-family: 'Oswald', sans-serif;
-   margin: 0;
-   padding: 0;
-   background-color: #fff;
-   color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
 }
 
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+}
 
 header {
-  display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 15px 20px;
-   background-color: #8B0000; 
-   color: white;
-   text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #8B0000;
+    color: white;
+    text-decoration: none;
 }
 
-.logo img {
-   height: 100px;
+.logo {
+    height: 90px;
 
 }
 
-.nav{
-   font-size: 24px;
-   cursor: pointer;
-   text-decoration: none;
-   
+.nav {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+
+
 }
 
 .nav-links {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   display: none;
-   flex-direction: column;
-   background: #8B0000;
-   top: 60px;
-   right: 20px;
-   width: 200px;
-   text-align: right;
-   position: absolute;
-   text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    background: #8B0000;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    text-decoration: none;
 }
 
 .nav-links li {
-   padding: 10px;
- text-transform: uppercase;
- font-weight: 500;
-  display: block;
-  text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    text-decoration: none;
 }
 
 .nav-links a {
-   color: white;
-   text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a {
@@ -64,35 +72,36 @@ a {
 
 a:hover {
     color: black;
-  }
+}
 
-  a:visited {
+a:visited {
     color: white;
-  }
+}
+
 .nav-active {
-   display: flex;
+    display: flex;
 }
 
 nav a {
     text-decoration: none !important;
-  }
+}
 
-  nav li:hover a {
+nav li:hover a {
     color: black;
-  }
+}
 
 
 .main {
- margin: -70px auto 80px;
- padding: 80px;
- z-index: 0;
- 
+    margin: -70px auto 80px;
+    padding: 80px;
+    z-index: 0;
+
 }
 
 .mainlogo img {
- display: block; 
- margin: auto;
- filter: drop-shadow(0 0 0.75rem white);
+    display: block;
+    margin: auto;
+    filter: drop-shadow(0 0 0.75rem white);
 }
 
 body {
@@ -108,29 +117,29 @@ h1 {
 
 .menu-section {
     border-bottom: 1px solid #444;
- color: #000;
- font-family: 'Oswald', sans-serif;
- margin: 20px 0 10px;
- padding: 0 0 10px 0;
- text-transform: uppercase;
- font-weight: 500;
-   line-height: 1.1;
- font-size: 30px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0 10px;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 30px;
 }
 
 .item-name {
- 
-  color: #ce2c38;
- font-family: 'Oswald', sans-serif;
- margin: 10px 0 5px;
- text-transform: uppercase;
- font-size: 20px;
-     font-weight: 500;
-   line-height: 1.1;
+
+    color: #ce2c38;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 .item-price {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 h2 {
@@ -157,20 +166,20 @@ h2 {
     justify-content: space-between;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
-   .nav-links {
-       display: flex;
-       flex-direction: row;
-       position: static;
-       width: auto;
-   }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+    }
 
-   .nav-links li {
-       padding: 0 15px;
-   }
+    .nav-links li {
+        padding: 0 15px;
+    }
 
-  
+
 }
