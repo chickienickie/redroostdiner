@@ -38,6 +38,8 @@ body {
     font-size: 1.2rem;
     text-transform: uppercase;
     transition: color 0.3s;
+    font-family: 'Londrina Sketch', sans-serif !important;
+
 }
 
 .nav-links li a:hover {
@@ -54,13 +56,20 @@ body {
 
 }
 
+.mainlogo1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .mainlogo1 img {
     max-width: 100%;
     height: auto;
-    margin: 30px auto;
-    display: block;
-   
+}
 
+.about {
+    margin-top: 30px;
+    text-align: center;
+   
 }
 
 .mainlogo h3{
@@ -93,7 +102,7 @@ body {
 .menu-section {
     font-size: 6rem !important;
     font-weight: 700;
-    color: #ff3333;
+    color: #b2030a;
     text-align: center;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
@@ -126,8 +135,8 @@ body {
     font-family: 'Londrina Sketch', sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #ff3333;
-    border-bottom: 2px solid #ff3333;
+    color: #b2030a;
+    border-bottom: 2px solid#b2030a;
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -137,7 +146,7 @@ body {
     font-family: 'Londrina Sketch', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: #ff3333;
+    color: #b2030a;
     text-align: center;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
@@ -172,4 +181,9 @@ body {
     white-space: nowrap;
     font-weight: bold;
     color: #fff; 
+}
+
+
+.fa-brands.fa-facebook-f {
+    color: #b2030a !important;
 }
