@@ -1,185 +1,175 @@
+/* Global Styles */
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playpen Sans', cursive !important;
+    background-color: #000 !important;
+    color: #fff;
+    padding: 20px;
     margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
+    font-weight: 300;
+  font-style: normal;
 }
 
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: Oswald, sans-serif;
-}
 
-header {
+/* Header / Navbar */
+.header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
-    background-color: #8B0000;
-    color: white;
-    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #000;
+    
 }
 
 .logo {
-    height: 90px;
-
-}
-
-.nav {
-    font-size: 24px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-
-
+    max-height: 80px;
 }
 
 .nav-links {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-    flex-direction: column;
-    background: #8B0000;
-    top: 60px;
-    right: 20px;
-    width: 200px;
-    text-align: right;
-    position: absolute;
-    text-decoration: none;
-}
-
-.nav-links li {
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: 500;
-
-    text-decoration: none;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: black;
-}
-
-a:visited {
-    color: white;
-}
-
-.nav-active {
     display: flex;
+    gap: 25px;
 }
 
-nav a {
-    text-decoration: none !important;
-}
-
-nav li:hover a {
-    color: black;
-}
-
-
-.main {
-    margin: -70px auto 80px;
-    padding: 80px;
-    z-index: 0;
-
-}
-
-.mainlogo img {
-    display: block;
-    margin: auto;
-    filter: drop-shadow(0 0 0.75rem white);
-}
-
-body {
-    font-family: Oswald, sans-serif;
-    text-align: center;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-h1 {
-    color: red;
-}
-
-.menu-section {
-    border-bottom: 1px solid #444;
-    color: #000;
-    font-family: 'Oswald', sans-serif;
-    margin: 20px 0 10px;
-    padding: 0 0 10px 0;
-    text-transform: uppercase;
-    font-weight: 500;
-    line-height: 1.1;
-    font-size: 30px;
-}
-
-.item-name {
-
-    color: #ce2c38;
-    font-family: 'Oswald', sans-serif;
-    margin: 10px 0 5px;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.1;
-}
-
-.item-price {
-    font-size: 20px;
-}
-
-h2 {
-    font-size: 28px;
-    font-family: Oswald, sans-serif;
+.nav-links li a {
+    text-decoration: none;
+    color: white;
     font-weight: 700;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
 }
 
-#menu {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.nav-links li a:hover {
+    color: #fff;
+}
+
+/* Center Logo */
+.mainlogo img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+   
+
+}
+
+.mainlogo1 img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+   
+
+}
+
+.mainlogo h3{
+    font-family: 'Londrina Sketch', sans-serif !important;
+
+}
+
+.mainlogo h3, h4 {
+    text-align: center;
+    color: white;
+
+
+}
+
+.about {
+    font-family: 'Londrina Sketch', sans-serif !important;
+    text-align: center;
+    color: white;
+    font-size: 50px !important;
+
+}
+
+.h3 .about {
+    text-align: center;
+    color: white;
+    font-size: 50px !important;
+}
+
+/* Section Headings */
+.menu-section {
+    font-size: 6rem !important;
+    font-weight: 700;
+    color: #ff3333;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Section Note */
+.menu-note {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Columns Layout */
+.menu-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 2rem;
+}
+
+.menu-column {
+    flex: 1;
+}
+
+/* Subsection Headings */
+.menu-subsection {
+    font-family: 'Londrina Sketch', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ff3333;
+    border-bottom: 2px solid #ff3333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .menu-section {
-    margin-bottom: 30px;
+    font-family: 'Londrina Sketch', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff3333;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 
+/* Small notes under subsections */
+.menu-note-small {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #aaa;
+}
 
+/* Menu Items */
 .menu-item {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-    text-transform: uppercase;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px dotted #444;
 }
 
-@media (min-width: 768px) {
-    .nav-links {
-        display: flex;
-        flex-direction: row;
-        position: static;
-        width: auto;
-    }
+.item-name {
+    color: #fff;
+    flex: 1;
+    padding-right: 10px;
+}
 
-    .nav-links li {
-        padding: 0 15px;
-    }
-
-
+.item-price {
+    white-space: nowrap;
+    font-weight: bold;
+    color: #fff; 
 }
