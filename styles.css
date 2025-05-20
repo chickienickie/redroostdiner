@@ -1,11 +1,11 @@
 /* Global Styles */
 body {
-    font-family: 'Playpen Sans', cursive !important;
+    font-family: 'Shadows Into Light', cursive !important;
     background-color: #000 !important;
     color: #fff;
     padding: 20px;
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
   font-style: normal;
 }
 
@@ -36,6 +36,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 1.2rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     transition: color 0.3s;
     font-family: 'Londrina Sketch', sans-serif !important;
@@ -52,19 +53,40 @@ body {
     height: auto;
     margin: 30px auto;
     display: block;
+    margin-bottom: 0 !important;
+   
    
 
+}
+.mainlogoo img {
+    background-color: white;
 }
 
 .mainlogo1 {
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .mainlogo1 img {
-    max-width: 100%;
-    height: auto;
+    
+    display: block;
+  margin: 0 auto; /* center the image */
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+ 
 }
+
+
+
+
+  
+  .mainlogo h3,
+  .mainlogo h4 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
 .about {
     margin-top: 30px;
@@ -99,7 +121,7 @@ body {
 }
 
 /* Section Headings */
-.menu-section {
+.menu-section, h2 {
     font-size: 6rem !important;
     font-weight: 700;
     color: #b2030a;
@@ -111,11 +133,11 @@ body {
 
 /* Section Note */
 .menu-note {
-    font-size: 1rem;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 2rem;
     color: #ccc;
-    font-style: italic;
+   
 }
 
 /* Columns Layout */
@@ -156,9 +178,8 @@ body {
 
 /* Small notes under subsections */
 .menu-note-small {
-    font-size: 0.85rem;
+    font-size: 20px;
     margin-bottom: 1rem;
-    font-style: italic;
     color: #aaa;
 }
 
@@ -167,7 +188,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
-    font-size: 1.1rem;
+    font-size: 30px;
     border-bottom: 1px dotted #444;
 }
 
