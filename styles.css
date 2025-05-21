@@ -232,6 +232,20 @@ body {
     text-align: center;
     font-family: 'Londrina Sketch', sans-serif !important;
     color: white;
+    
+  }
+
+  .rooster-divider {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .rooster-divider img {
+    width: 30px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(9%) sepia(95%) saturate(5687%) hue-rotate(352deg) brightness(82%) contrast(133%);
   }
 
 /* Responsive Styles */
