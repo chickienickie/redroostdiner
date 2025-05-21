@@ -110,19 +110,19 @@ body {
     font-family: 'Londrina Sketch', sans-serif !important;
     text-align: center;
     color: white;
-    font-size: 50px !important;
+    font-size: 50px;
 
 }
 
 .h3 .about {
     text-align: center;
     color: white;
-    font-size: 50px !important;
+    font-size: 50px;
 }
 
 /* Section Headings */
 .menu-section, h2 {
-    font-size: 6rem !important;
+    font-size: 50px;
     font-weight: 700;
     color: #b2030a;
     text-align: center;
@@ -155,7 +155,7 @@ body {
 /* Subsection Headings */
 .menu-subsection {
     font-family: 'Londrina Sketch', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #b2030a;
     border-bottom: 2px solid#b2030a;
@@ -166,7 +166,7 @@ body {
 
 .menu-section {
     font-family: 'Londrina Sketch', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #b2030a;
     text-align: center;
