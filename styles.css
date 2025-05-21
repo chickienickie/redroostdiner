@@ -227,6 +227,13 @@ body {
       
   }
 
+  .visit {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Londrina Sketch', sans-serif !important;
+    color: white;
+  }
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .header {
