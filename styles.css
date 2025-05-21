@@ -223,49 +223,50 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    /* Header */
     .header {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 20px;
-    }
-  
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-      display: none;
-      margin-top: 10px;
-    }
-  
-    .nav-links.active {
-      display: flex;
-    }
-  
-    .nav-links li {
-      width: 100%;
-    }
-  
-    .nav-links li a {
-      font-size: 1rem;
-      display: block;
-      width: 100%;
-    }
-  
-    /* Hamburger Icon */
-    .hamburger {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .hamburger div {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      margin: 4px 0;
-      transition: 0.4s;
-    }
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      
+      .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+      }
+      
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+      }
+      
+      .hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
+      
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      
+      .nav-links.active {
+        display: flex;
+      }
+      
+      .nav-links li a {
+        font-size: 1rem;
+        text-align: right;
+      }
+    
   
     /* Logo */
     .logo {
