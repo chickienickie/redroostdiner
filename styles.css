@@ -208,3 +208,100 @@ body {
 .fa-brands.fa-facebook-f {
     color: #b2030a !important;
 }
+
+.hamburger {
+    display: none;
+  }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      display: none;
+      margin-top: 10px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      width: 100%;
+    }
+  
+    .nav-links li a {
+      font-size: 1rem;
+      display: block;
+      width: 100%;
+    }
+  
+    /* Hamburger Icon */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+  
+    /* Logo */
+    .logo {
+      max-height: 60px;
+    }
+  
+    /* Responsive Menu Columns */
+    .menu-columns {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    /* Menu Items (keep price on right) */
+    .menu-item {
+      font-size: 22px;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .item-price {
+      text-align: right;
+      min-width: 70px;
+    }
+  
+    .item-name {
+      flex: 1;
+    }
+  
+    /* Resize text */
+    .menu-section, h2 {
+      font-size: 3rem !important;
+    }
+  
+    .menu-subsection {
+      font-size: 2rem;
+    }
+  
+    .about {
+      font-size: 30px !important;
+    }
+  
+    .menu-note,
+    .menu-note-small {
+      font-size: 16px;
+    }
+  }
+  
