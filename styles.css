@@ -77,10 +77,6 @@ body {
   height: auto;
  
 }
-
-
-
-
   
   .mainlogo h3,
   .mainlogo h4 {
@@ -178,7 +174,7 @@ body {
 
 .item-desc {
     font-size: 1.5rem;
-    color: #666;
+    color: #a6a6a6;
     margin-top: 2px;
   }
 
@@ -186,7 +182,7 @@ body {
 .menu-note-small {
     font-size: 20px;
     margin-bottom: 1rem;
-    color: #aaa;
+    color: #fff;
 }
 
 /* Menu Items */
