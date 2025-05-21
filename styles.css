@@ -176,6 +176,12 @@ body {
 }
 
 
+.item-desc {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 2px;
+  }
+
 /* Small notes under subsections */
 .menu-note-small {
     font-size: 20px;
