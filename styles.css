@@ -289,7 +289,9 @@ body {
         text-align: right;
       }
     
-  
+  .location {
+    font-size: 22px;
+  }
     /* Logo */
     .logo {
       max-height: 60px;
@@ -326,13 +328,21 @@ body {
       font-size: 2rem;
     }
   
-    .about {
-      font-size: 30px !important;
+  .about {
+      font-size: 27px;
+    }
+
+    .visit {
+      font-size: 24px;
     }
   
+   .tagline {
+      font-size: 19px;
+    }
+
     .menu-note,
     .menu-note-small {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
   
