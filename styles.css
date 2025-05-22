@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Shadows Into Light', cursive !important;
-    background-color: #000 !important;
+    background-color: #00181f !important;
     color: #fff;
     padding: 20px;
     margin: 0;
@@ -17,12 +17,16 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
-    background-color: #000;
+    background-color: #00181f;
     
 }
 
 .logo {
     max-height: 80px;
+}
+
+.tagline {
+  color: #b2030a;
 }
 
 .nav-links {
@@ -329,7 +333,7 @@ body {
     }
   
   .about {
-      font-size: 29px;
+      font-size: 29.5px;
     }
 
     .visit {
@@ -337,7 +341,7 @@ body {
     }
   
    .tagline {
-      font-size: 19px;
+      font-size: 19.3px;
     }
 
     .menu-note,
