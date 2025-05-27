@@ -164,7 +164,7 @@ body {
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: .8px;
 }
 
 .menu-section {
@@ -328,7 +328,7 @@ body {
   
     /* Resize text */
     .menu-section, h2 {
-      font-size: 39px !important;
+      font-size: 37px !important;
     }
   
     .menu-subsection {
