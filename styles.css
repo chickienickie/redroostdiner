@@ -27,6 +27,7 @@ body {
 
 .tagline {
   color: #b2030a;
+  letter-spacing: 1.4px;
 }
 
 .nav-links {
@@ -118,6 +119,7 @@ body {
     text-align: center;
     color: white;
     font-size: 50px;
+    letter-spacing: .8px;
 }
 
 /* Section Headings */
@@ -162,6 +164,7 @@ body {
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-transform: uppercase;
+    letter-spacing: 2.5px;
 }
 
 .menu-section {
@@ -172,7 +175,7 @@ body {
     text-align: center;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 
@@ -334,6 +337,7 @@ body {
   
   .about {
       font-size: 29.5px;
+      letter-spacing: .8px;
     }
 
     .visit {
@@ -342,6 +346,7 @@ body {
   
    .tagline {
       font-size: 19.3px;
+      letter-spacing: .5px;
     }
 
     .menu-note,
