@@ -39,7 +39,7 @@ body {
 .nav-links li a {
     text-decoration: none;
     color: black;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.2rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -204,6 +204,13 @@ body {
     letter-spacing: 3px;
 }
 
+.weekday {
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Londrina Sketch', sans-serif !important;
+  color: black;
+  font-weight: 600;
+}
 
 .item-desc {
     font-size: 1.5rem;
@@ -250,6 +257,7 @@ body {
 
 .hamburger {
     display: none;
+    
   }
 
   .main {
@@ -299,12 +307,13 @@ body {
         display: block;
         cursor: pointer;
         padding: 10px;
+        
       }
       
       .hamburger div {
         width: 25px;
         height: 3px;
-        background-color: white;
+        background-color: black;
         margin: 4px 0;
         transition: 0.4s;
       }
