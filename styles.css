@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
     font-family: 'Shadows Into Light', cursive !important;
-    background-color: #00181f !important;
-    color: #fff;
+    background-color: white!important;
+    color: #00181f;
     padding: 20px;
     margin: 0;
     font-weight: 400;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
-    background-color: #00181f;
+    background-color: white;
     
 }
 
@@ -38,7 +38,7 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: 0.1em;
@@ -49,7 +49,7 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #fff;
+    color: black;
 }
 
 /* Center Logo */
@@ -102,7 +102,7 @@ body {
 
 .mainlogo h3, h4 {
     text-align: center;
-    color: white;
+    color: black;
 
 
 }
@@ -110,16 +110,21 @@ body {
 .about {
     font-family: 'Londrina Sketch', sans-serif !important;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 50px;
 
 }
 
 .h3 .about {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 50px;
     letter-spacing: .8px;
+}
+
+.special-name {
+  color: #b2030a;
+  font-family: 'Shadows Into Light', cursive !important;
 }
 
 /* Section Headings */
@@ -138,7 +143,7 @@ body {
     font-size: 25px;
     text-align: center;
     margin-bottom: 2rem;
-    color: #ccc;
+    color: black;
    
 }
 
@@ -167,6 +172,18 @@ body {
     letter-spacing: .8px;
 }
 
+.index-subsection {
+  font-family: 'Londrina Sketch', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center !important;
+    color: #b2030a;
+    padding-bottom: 5px;
+  
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
 .menu-section {
     font-family: 'Londrina Sketch', sans-serif;
     font-size: 4rem;
@@ -181,7 +198,7 @@ body {
 
 .item-desc {
     font-size: 1.5rem;
-    color: #a6a6a6;
+    color: #546469;
     margin-top: 2px;
   }
 
@@ -189,7 +206,7 @@ body {
 .menu-note-small {
     font-size: 20px;
     margin-bottom: 1rem;
-    color: #fff;
+    color: black;
 }
 
 /* Menu Items */
@@ -202,7 +219,7 @@ body {
 }
 
 .item-name {
-    color: #fff;
+    color: black;
     flex: 1;
     padding-right: 10px;
 }
@@ -210,12 +227,16 @@ body {
 .item-price {
     white-space: nowrap;
     font-weight: bold;
-    color: #fff; 
+    color: black; 
 }
 
 
 .fa-brands.fa-facebook-f {
     color: #b2030a !important;
+}
+
+.fa-solid.fa-phone {
+  color: #b2030a !important;
 }
 
 .hamburger {
@@ -234,7 +255,7 @@ body {
     font-size: 28px;
     text-align: center;
     font-family: 'Londrina Sketch', sans-serif !important;
-    color: white;
+    color: black;
     
   }
 
