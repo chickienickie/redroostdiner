@@ -536,11 +536,11 @@ section {
     }
   
     .menu-subsection, .index-subsection {
-      font-size: 27px;
+      font-size: 19.3px;
     }
   
   .about {
-      font-size: 26.9px;
+      font-size: 24px;
       letter-spacing: .5px;
     }
 
@@ -548,13 +548,13 @@ section {
       font-size: 20px;
     }
     .visit {
-      font-size: 23px;
+      font-size: 21px;
     }
   .special-name {
     font-size: 22px;
   }
    .tagline {
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: .1px;
     }
 .subtext {
