@@ -483,7 +483,7 @@ section {
 
     .item-descs {
       font-size: 16px;
-      color: black;
+      color: black !important;
       display: block;
       margin-top: 4px; /* optional, adds spacing */
     }
@@ -497,7 +497,6 @@ section {
         margin-top: 4px; /* optional, adds spacing */
         
     }
-
 
   
     /* Resize text */
