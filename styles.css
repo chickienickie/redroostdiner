@@ -480,6 +480,13 @@ section {
     .item-name {
       flex: 1;
     }
+
+    .item-descs {
+      font-size: 16px;
+      color: black;
+      display: block;
+      margin-top: 4px; /* optional, adds spacing */
+    }
   
     .item-desc {
       font-size: 16px;
@@ -491,12 +498,7 @@ section {
         
     }
 
-    .item-descs {
-      font-size: 16px;
-      color: black;
-      display: block;
-      margin-top: 4px; /* optional, adds spacing */
-    }
+
   
     /* Resize text */
     .menu-section, h1 {
