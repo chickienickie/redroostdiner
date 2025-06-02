@@ -346,6 +346,26 @@ body {
       .menu-links a {
         color:black;
       }
+
+      /* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b2030a;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
     
   .location {
     font-size: 22px;
