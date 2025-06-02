@@ -2,14 +2,23 @@
 body {
     font-family: 'Shadows Into Light', cursive !important;
     background-color: white!important;
-    color: #00181f;
+    color: black;
     padding: 20px;
     margin: 0;
     font-weight: 400;
   font-style: normal;
 }
 
-
+.header,
+.footer {
+  background-color: #b2030a;
+  padding: 20px 0; /* vertical only */
+  color: black;
+}
+header, nav, section, footer {
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+}
 
 /* Header / Navbar */
 .header {
@@ -17,6 +26,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
+    background-color:  #b2030a;
     
 }
 
@@ -37,7 +47,7 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 900;
     font-size: 1.2rem;
     letter-spacing: 0.1em;
@@ -111,13 +121,16 @@ body {
 
 }
 
-.section {
-  padding: 50px 20px;
-  text-align: center;
+section {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  margin: 0; /* no auto margin */
 }
 
 .alt-bg {
-  background-color: #f9f9f9;
+  background-color:  #b2030a;
+  color: white;
 }
 
 .section-title {
@@ -126,6 +139,10 @@ body {
   margin-bottom: 20px;
 }
 
+.menu-links {
+  text-align: center;
+  margin-top: 1rem;
+}
 .menu-links a {
   display: inline-block;
   margin: 10px 15px;
@@ -148,6 +165,7 @@ body {
 .footer {
 
   color: black;
+  background-color:  #b2030a;
   text-align: center;
   padding: 20px;
 }
@@ -177,9 +195,10 @@ body {
 }
 
 .special-name {
-  color: #b2030a;
+  color: #b2030a;;
   font-family: 'Shadows Into Light', cursive !important;
 }
+
 
 /* Section Headings */
 .menu-section, h1 {
@@ -231,7 +250,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     text-align: center !important;
-    color: #b2030a;
+    color: black;
     padding-bottom: 5px;
   
     text-transform: uppercase;
@@ -248,7 +267,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-
+.subtext {
+  color: #b2030a;
+}
 .weekday {
   font-size: 28px;
   text-align: center;
@@ -260,6 +281,12 @@ body {
 .item-desc {
     font-size: 1.5rem;
     color: #546469;
+    margin-top: 2px;
+  }
+
+  .item-descs {
+    font-size: 1.5rem;
+    color: black;
     margin-top: 2px;
   }
 
@@ -335,6 +362,8 @@ body {
   .rooster-icon.flipped {
     transform: scaleX(-1); /* Face the other direction */
   }
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -464,6 +493,14 @@ body {
         margin-top: 4px; /* optional, adds spacing */
         
     }
+
+    .item-descs {
+      font-size: 16px;
+      color: #eaeaea;
+      display: block;
+      margin-top: 4px; /* optional, adds spacing */
+    }
+  
     /* Resize text */
     .menu-section, h1 {
       font-size: 32.4px !important;
