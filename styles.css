@@ -63,8 +63,12 @@ body {
    
 
 }
-.mainlogoo img {
-    background-color: white;
+.mainlogoo-img {
+  background-color: white;
+  width: 200px;
+  height: auto;
+  margin: 30px auto 0 auto;
+  display: block;
 }
 
 .mainlogo1 {
@@ -440,7 +444,7 @@ body {
     }
   
     .menu-subsection, .index-subsection {
-      font-size: 28px;
+      font-size: 27px;
     }
   
   .about {
