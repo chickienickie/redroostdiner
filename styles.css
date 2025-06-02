@@ -493,7 +493,7 @@ section {
 
     .item-descs {
       font-size: 16px;
-      color: #eaeaea;
+      color: black;
       display: block;
       margin-top: 4px; /* optional, adds spacing */
     }
