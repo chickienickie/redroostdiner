@@ -369,6 +369,13 @@ section {
         justify-content: space-between;
         align-items: flex-start;
       }
+
+      .item-descs {
+        font-size: 16px;
+        color: black !important;
+        display: block;
+        margin-top: 4px; /* optional, adds spacing */
+      }
       
       .nav-container {
         display: flex;
@@ -481,18 +488,12 @@ section {
       flex: 1;
     }
 
-    .item-descs {
-      font-size: 16px;
-      color: black !important;
-      display: block;
-      margin-top: 4px; /* optional, adds spacing */
-    }
+  
   
     .item-desc {
       font-size: 16px;
       color: #546469;
       margin-top: 2px;
-    
         display: block;
         margin-top: 4px; /* optional, adds spacing */
         
