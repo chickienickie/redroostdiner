@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 30px;
-    background-color: white;
+    background-color:#f9f9f9;
     
 }
 
@@ -63,6 +63,7 @@ body {
    
 
 }
+
 .mainlogoo-img {
   background-color: white;
   width: 200px;
@@ -109,6 +110,47 @@ body {
     color: black;
 
 
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.alt-bg {
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  color: #b2030a;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.menu-links a {
+  display: inline-block;
+  margin: 10px 15px;
+  color: #b2030a;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu-links a:hover {
+  background-color: black;
+  color: #b2030a;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #f9f9f9;
+  color: black;
+  text-align: center;
+  padding: 20px;
 }
 
 .about {
@@ -264,31 +306,7 @@ body {
     
   }
 
-  .menu-links {
-    text-align: center;
-  }
-  .menu-links a {
-   
-    color: black;
-    text-decoration: none;
-    text-align: center;
-  }
-  
 
-  .menu-links a:visited {
-    color: black;
-    text-decoration: none;
-  }
-
-  .menu-links a:hover {
-    color: #b2030a;
-    text-decoration: none;
-  }
-
-  .menu-links a:active {
-    color: black;
-    text-decoration: none;
-  }
 
 
   .main {
@@ -341,6 +359,15 @@ body {
         
       }
       
+      .menu-links {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .menu-links a {
+        width: 100%;
+        max-width: 300px;
+      }
       .hamburger div {
         width: 25px;
         height: 3px;
