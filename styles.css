@@ -334,6 +334,18 @@ body {
         font-size: 1rem;
         text-align: right;
       }
+
+      .menu-links {
+        text-align: center;
+        font-size: 28px;
+        text-align: center;
+        color: black;
+      
+      }
+
+      .menu-links a {
+        color:black;
+      }
     
   .location {
     font-size: 22px;
@@ -343,6 +355,10 @@ body {
       max-height: 60px;
     }
   
+    .subtext {
+      font-size: 25px;
+      text-align: center;
+    }
     /* Responsive Menu Columns */
     .menu-columns {
       flex-direction: column;
@@ -380,7 +396,7 @@ body {
     }
   
     .menu-subsection, .index-subsection {
-      font-size: 2rem;
+      font-size: 28px;
     }
   
   .about {
@@ -391,12 +407,17 @@ body {
     .visit {
       font-size: 23px;
     }
-  
+  .special-name {
+    font-size: 23.5px;
+  }
    .tagline {
       font-size: 18px;
       letter-spacing: .1px;
     }
-
+.subtext {
+  font-size: 15.3px;
+  text-align: center;
+}
     .menu-note,
     .menu-note-small {
       font-size: 20px;
