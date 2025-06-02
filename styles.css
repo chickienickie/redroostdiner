@@ -30,6 +30,35 @@ header, nav, section, footer {
     
 }
 
+.section-inner {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-links a {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #b2030a;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+  width: 100%;             /* Make button fill parent width */
+  max-width: 350px;        /* Cap button width */
+  text-align: center;
+}
+
 .logo {
     max-height: 80px;
 }
