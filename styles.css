@@ -550,8 +550,8 @@ section {
     .visit {
       font-size: 21px;
     }
-  .special-name {
-    font-size: 22px;
+  .special-name, .weekday {
+    font-size: 20px;
   }
    .tagline {
       font-size: 15px;
