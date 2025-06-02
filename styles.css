@@ -259,7 +259,25 @@ body {
     display: none;
     
   }
+  .menu-links a {
+    color:black;
+    text-decoration: none;
+  }
 
+  .menu-links a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  .menu-links a:hover {
+    color: #b2030a;
+    text-decoration: none;
+  }
+
+  .menu-links a:active {
+    color: black;
+    text-decoration: none;
+  }
   .main {
   
         max-width: 1100px;
@@ -343,30 +361,9 @@ body {
       
       }
 
-      .menu-links a {
-        color:black;
-      }
+      
 
-      /* unvisited link */
-a:link {
-  color: black;
-}
 
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color: #b2030a;
-}
-
-/* selected link */
-a:active {
-  color: black;
-}
-    
   .location {
     font-size: 22px;
   }
@@ -390,6 +387,7 @@ a:active {
       font-size: 22px;
       justify-content: space-between;
       align-items: center;
+      
     }
   
     .item-price {
