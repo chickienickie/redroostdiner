@@ -404,6 +404,9 @@ body {
       letter-spacing: .5px;
     }
 
+    .location {
+      font-size: 20px;
+    }
     .visit {
       font-size: 23px;
     }
