@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Shadows Into Light', cursive !important;
+  font-family: "Raleway", sans-serif !important;
     background-color: white!important;
     color: black;
     padding: 20px;
@@ -54,7 +54,7 @@ header, nav, section, footer {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     transition: color 0.3s;
-    font-family: 'Londrina Sketch', sans-serif !important;
+    font-family: "Raleway", sans-serif !important;
 
 }
 
@@ -111,7 +111,7 @@ header, nav, section, footer {
 }
 
 .mainlogo h3{
-    font-family: 'Londrina Sketch', sans-serif !important;
+  font-family: "Bungee Tint", sans-serif !important;
 
 }
 
@@ -143,11 +143,12 @@ section {
 }
 .menu-links a {
   display: inline-block;
+  font-family: "Bungee Tint", sans-serif;
   margin: 10px 15px;
   color: #b2030a;
   font-size: 1.2rem;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900;
   border: 2px solid black;
   padding: 10px 20px;
   border-radius: 5px;
@@ -169,7 +170,7 @@ section {
 }
 
 .about {
-  font-family: 'Londrina Sketch', sans-serif;
+  font-family: "Bungee Tint", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   text-align: center !important;
@@ -193,8 +194,8 @@ section {
 }
 
 .special-name {
-  color: #b2030a;;
-  font-family: 'Shadows Into Light', cursive !important;
+  color: black;
+  font-family: "Quicksand", sans-serif;
 }
 
 
@@ -232,7 +233,7 @@ section {
 
 /* Subsection Headings */
 .menu-subsection {
-    font-family: 'Londrina Sketch', sans-serif;
+  font-family: "Bungee Tint", sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: #b2030a;
@@ -244,7 +245,7 @@ section {
 }
 
 .index-subsection {
-  font-family: 'Londrina Sketch', sans-serif;
+  font-family: "Bungee Tint", sans-serif;
     font-size: 3rem;
     font-weight: 700;
     text-align: center !important;
@@ -256,7 +257,7 @@ section {
 }
 
 .menu-section {
-    font-family: 'Londrina Sketch', sans-serif;
+  font-family: "Bungee Tint", sans-serif;
     font-size: 4rem;
     font-weight: 700;
     color: #b2030a;
@@ -267,11 +268,12 @@ section {
 }
 .subtext {
   color: #b2030a;
+  font-weight: 200;
 }
 .weekday {
   font-size: 28px;
   text-align: center;
-  font-family: 'Londrina Sketch', sans-serif !important;
+  font-family: "Bungee Tint", sans-serif !important;
   color: black;
   font-weight: 600;
 }
@@ -280,12 +282,14 @@ section {
     font-size: 1.5rem;
     color: #546469;
     margin-top: 2px;
+    font-weight: 200;
   }
 
   .item-descs {
     font-size: 1.5rem;
     color: black !important;
     margin-top: 2px;
+    font-weight: 200;
   }
 
 /* Small notes under subsections */
@@ -293,6 +297,7 @@ section {
     font-size: 20px;
     margin-bottom: 1rem;
     color: black;
+    font-weight: 200;
 }
 
 /* Menu Items */
@@ -344,7 +349,7 @@ section {
   .visit {
     font-size: 28px;
     text-align: center;
-    font-family: 'Londrina Sketch', sans-serif !important;
+    font-family: "Bungee Tint", sans-serif !important;
     color: #b2030a;
     
   }
@@ -354,7 +359,7 @@ section {
     height: auto;
     vertical-align: middle;
     margin: 0 8px;
-    filter: brightness(0) saturate(100%) invert(9%) sepia(95%) saturate(5687%) hue-rotate(352deg) brightness(82%) contrast(133%);
+    color: black;
   }
   
   .rooster-icon.flipped {
@@ -540,7 +545,7 @@ section {
     }
   
   .about {
-      font-size: 24px;
+      font-size: 19.4px;
       letter-spacing: .5px;
     }
 
@@ -548,13 +553,13 @@ section {
       font-size: 20px;
     }
     .visit {
-      font-size: 21px;
+      font-size: 16.4px;
     }
   .special-name, .weekday {
     font-size: 20px;
   }
    .tagline {
-      font-size: 15px;
+      font-size: 14px;
       letter-spacing: .1px;
     }
 .subtext {
