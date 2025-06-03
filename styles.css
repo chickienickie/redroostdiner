@@ -38,6 +38,7 @@ header, nav, section, footer {
 .tagline {
   color: #b2030a;
   letter-spacing: 1.4px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .nav-links {
@@ -167,6 +168,7 @@ section {
   background-color:  #b2030a;
   text-align: center;
   padding: 20px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .about {
@@ -216,7 +218,7 @@ section {
     text-align: center;
     margin-bottom: 2rem;
     color: black;
-   
+    font-family: "Quicksand", sans-serif;
 }
 
 /* Columns Layout */
@@ -283,6 +285,7 @@ section {
     color: #546469;
     margin-top: 2px;
     font-weight: 200;
+    font-family: "Quicksand", sans-serif;
   }
 
   .item-descs {
@@ -298,6 +301,7 @@ section {
     margin-bottom: 1rem;
     color: black;
     font-weight: 200;
+    font-family: "Quicksand", sans-serif;
 }
 
 /* Menu Items */
@@ -366,7 +370,16 @@ section {
     transform: scaleX(-1); /* Face the other direction */
   }
 
+  .location {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+  }
 
+.phone {
+  font-weight: 500 !important;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -541,7 +554,7 @@ section {
     }
   
     .menu-subsection, .index-subsection {
-      font-size: 19.3px;
+      font-size: 30px;
     }
   
   .about {
@@ -559,7 +572,7 @@ section {
     font-size: 20px;
   }
    .tagline {
-      font-size: 14px;
+      font-size: 17px;
       letter-spacing: .1px;
     }
 .subtext {
