@@ -237,7 +237,7 @@ section {
 .menu-subsection {
   font-family: "Bungee Tint", sans-serif;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #b2030a;
     border-bottom: 2px solid#b2030a;
     padding-bottom: 5px;
@@ -557,11 +557,11 @@ section {
     }
   
     .menu-subsection, .index-subsection {
-      font-size: 24.5px;
+      font-size: 24px;
     }
   
   .about {
-      font-size: 19.4px;
+      font-size: 16.8px;
       letter-spacing: .5px;
     }
 
@@ -584,7 +584,7 @@ section {
 }
     .menu-note,
     .menu-note-small {
-      font-size: 20px;
+      font-size: 13px;
     }
   }
   
