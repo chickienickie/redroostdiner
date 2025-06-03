@@ -50,12 +50,12 @@ header, nav, section, footer {
 .nav-links li a {
     text-decoration: none;
     color: white;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1.2rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     transition: color 0.3s;
-    font-family: "Raleway", sans-serif !important;
+    font-family: "Quicksand", sans-serif;
 
 }
 
@@ -271,7 +271,10 @@ section {
 .subtext {
   color: #b2030a;
   font-weight: 200;
-}
+  font-family: "Quicksand", sans-serif;
+  }
+  
+
 .weekday {
   font-size: 28px;
   text-align: center;
@@ -572,7 +575,7 @@ section {
     font-size: 20px;
   }
    .tagline {
-      font-size: 17px;
+      font-size: 15.2px;
       letter-spacing: .1px;
     }
 .subtext {
