@@ -422,6 +422,62 @@ section {
         
       }
 
+      .section {
+        padding: 2rem 1rem;
+        text-align: center;
+        background: #fff;
+      }
+      
+      /* Subheading */
+      .index-subsection {
+        font-family: "Bungee Tint", sans-serif;
+        font-size: 2rem;
+        color: #c20000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+      }
+      
+      .rooster-icon {
+        width: 30px;
+        height: auto;
+      }
+      
+      .flipped {
+        transform: scaleX(-1);
+      }
+      
+      /* Menu Links */
+      .menu-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      .menu-links a {
+        font-family: "Bungee Tint", sans-serif;
+        font-size: 1.5rem;
+        color: #c20000;
+        border: 2px solid #000;
+        border-radius: 12px;
+        padding: 1rem;
+        text-decoration: none;
+        background: #fff;
+        transition: all 0.3s ease;
+        box-shadow: 3px 3px 0 #000;
+      }
+      
+      .menu-links a:hover {
+        background: #c20000;
+        color: #fff;
+        box-shadow: none;
+        transform: translate(2px, 2px);
+      }
+
       .section-inner {
         max-width: 500px;
         margin: 0 auto;
