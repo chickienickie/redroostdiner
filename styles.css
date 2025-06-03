@@ -526,33 +526,36 @@ section {
       gap: 20px;
     }
   
-    /* Menu Items (keep price on right) */
     .menu-item {
-      font-size: 18px;
+      display: flex;
       justify-content: space-between;
-      align-items: center;
-      
-    }
-  
-    .item-price {
-      text-align: right;
-      min-width: 70px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      font-size: 18px;
     }
   
     .item-name {
-      flex: 1;
+      flex: 1 1 70%;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
     }
-
   
+    .item-price {
+      flex: 0 0 auto;
+      white-space: nowrap;
+      text-align: right;
+      font-weight: bold;
+      color: #b2030a; /* optional accent color */
+    }
   
     .item-desc {
+      display: block;
       font-size: 16px;
       color: #546469;
-      margin-top: 2px;
-        display: block;
-        margin-top: 4px; /* optional, adds spacing */
-        
+      margin-top: 4px;
     }
+
 
   
     /* Resize text */
