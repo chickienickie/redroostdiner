@@ -450,7 +450,7 @@ color: white;
       .index-subsection {
         font-family: "Bungee Tint", sans-serif;
         font-size: 2rem;
-        color: #c20000;
+        color: #b2030a;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -479,7 +479,7 @@ color: white;
       .menu-links a {
         font-family: "Bungee Tint", sans-serif;
         font-size: 1.5rem;
-        color: #c20000;
+        color: #b2030a;
         border: 2px solid #000;
         border-radius: 12px;
         padding: 1rem;
@@ -490,8 +490,8 @@ color: white;
       }
       
       .menu-links a:hover {
-        background: #c20000;
-        color: #fff;
+        background: black;
+        color: #b2030a;
         box-shadow: none;
         transform: translate(2px, 2px);
       }
