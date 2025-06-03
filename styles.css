@@ -129,13 +129,13 @@ nav ul li {
 
 }
 
-section {
-  width: 100%;
-  padding: 1.5rem 2rem;
-  box-sizing: border-box;
-  margin: 0; /* no auto margin */
-}
 
+
+.section {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #fff;
+}
 
 
 .section-title {
@@ -143,30 +143,44 @@ section {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-
+/* Menu Links */
 .menu-links {
+  display: inline-block;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
-  margin-top: 1rem;
 }
+
+
+.menu-links a:hover {
+  background: black;
+color: white;
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  text-decoration: none;
+}
+
+
 .menu-links a {
   display: inline-block;
   font-family: "Bungee Tint", sans-serif;
   margin: 10px 15px;
   color: #b2030a;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   font-weight: 900;
   border: 2px solid black;
   padding: 10px 20px;
-  border-radius: 5px;
-  transition: background 0.3s, color 0.3s;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 0 #000;
 }
 
-.menu-links a:hover {
-  background-color: black;
-  color: #b2030a;
-  text-decoration: none;
-}
+
+
+
 
 .footer {
 
@@ -254,15 +268,17 @@ section {
 
 .index-subsection {
   font-family: "Bungee Tint", sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center !important;
-    color: black;
-    padding-bottom: 5px;
-  
-    text-transform: uppercase;
-    letter-spacing: .8px;
+  font-size: 2rem;
+  color: #c20000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .8px;
 }
+
 
 .menu-section {
   font-family: "Bungee Tint", sans-serif;
@@ -371,6 +387,7 @@ section {
     
   }
 
+
   .rooster-icon {
     width: 50px;
     height: auto;
@@ -392,6 +409,7 @@ section {
   font-weight: 500 !important;
   text-align: center;
   font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
 
 /* Responsive Styles */
