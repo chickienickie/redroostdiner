@@ -524,7 +524,7 @@ section {
   
     /* Menu Items (keep price on right) */
     .menu-item {
-      font-size: 22px;
+      font-size: 18px;
       justify-content: space-between;
       align-items: center;
       
