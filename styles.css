@@ -161,6 +161,39 @@ h4 {
   text-decoration: none;
 }
 
+.mini-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+.mini-menu a {
+  display: inline-block;
+  font-family: "Bungee Tint", sans-serif;
+  margin: 10px 15px;
+  color: #b2030a;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 900;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.mini-menu a:hover {
+  background: black;
+  color: white;
+  box-shadow: none;
+  transform: translate(2px, 2px);
+  text-decoration: none;
+}
 /* =========================
    Footer
 ========================= */
@@ -485,6 +518,19 @@ h1 {
     color: #b2030a;
     box-shadow: none;
     transform: translate(2px, 2px);
+  }
+
+  .mini-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .mini-menu a {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    margin: 3px 0; /* less vertical space */
+    box-shadow: 2px 2px 0 #000;
   }
 
   .section-inner {
